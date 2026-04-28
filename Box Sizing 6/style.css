@@ -1,0 +1,28 @@
+a {
+    box-sizing: content-box;
+    display: inline-block;
+    width: 120px;
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+    border: 1px dashed blue;
+}
+
+a {
+    display: block;
+    width: 120px;
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+    border: 1px dashed blue;
+    margin-bottom: 10px;
+}
+a.content {
+    box-sizing: content-box;
+    background-color: #fee2e2;
+}
+
+a.border {
+    box-sizing: border-box;
+    background-color: #d1fae5;
+}
